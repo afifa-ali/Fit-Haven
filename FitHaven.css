@@ -1,0 +1,292 @@
+
+
+body {
+    margin:0;
+    height:100%;
+    background-color: rgb(232, 232, 232);
+}
+
+
+main, section {
+    margin-left: 40px; 
+    margin-right: 40px; 
+}
+
+/* NEW SECTION */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: black;
+    color: white;
+    padding:0 50px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color:rgb(205, 90, 109)
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+a {
+    text-decoration:none;
+    color: white;
+}
+
+button {
+    color:white;
+    background-color: rgb(205, 90, 109);
+    padding:10px;
+    font-size: medium;
+    font-weight: bold;
+    border: 2px solid rgb(205, 90, 109);
+    border-radius: 5px;
+}
+
+/* NEW SECTION */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.mainImg {
+    width:1350px;
+    
+}
+
+h2 {
+    font-family:sans-serif;
+    font-weight: 350;
+    font-size: 2.7em;
+}
+
+.mainText {
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+p {
+    font-size: larger;
+    font-family:sans-serif;
+    font-weight: 100;
+}
+
+/* NEW SECTION */
+
+.categories {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.figLarge {
+    font-size: larger;
+    font-family:sans-serif;
+    padding: 0 20px 0 20px;
+}
+
+.figSmall {
+    font-size: larger;
+    font-family:sans-serif;
+    padding: 0 20px 20px 20px;
+}
+
+.h3Big {
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: xx-large;
+}
+
+.h3Small {
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: x-large;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 100px, 100px, 100px, 100px, 100px;
+    grid-template-rows: 100px, 100px, 100px, 100px;
+}
+
+.reformerPilates {
+    grid-column: 1 / 4;
+    grid-row: 1 / 5;
+    border:1px solid darkgray;
+}
+
+.pilatesImg {
+    width: 100vh;
+
+}
+
+.gym {
+    grid-column: 4 / 6;
+    grid-row: 1 / 3 ;
+    border:1px solid darkgray;
+}
+
+.gymImg {
+    width:50vh;
+}
+
+.yoga {
+    grid-column: 4 / 6;
+    grid-row: 3 / 5;
+    border:1px solid darkgray;
+}
+
+.yogaImg {
+    width:50vh;
+}
+
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 100px, 100px, 100px, 100px, 100px;
+    grid-template-rows: 100px, 100px, 100px, 100px;
+}
+
+.boxing {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    border:1px solid darkgray;
+}
+
+.boxingImg {
+    width: 50vh;
+
+}
+
+.oneMembership {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    border:1px solid darkgray;
+    padding:25px;
+    background-color: black;
+    color: white;
+}
+
+.oneMembershipTitle {
+    font-size: 3em;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+
+.gridTraining {
+    grid-column: 3 / 6;
+    grid-row: 1 / 5;
+    border:1px solid darkgray;
+}
+
+.gridTrainingImg {
+    width: 100vh;
+
+}
+
+
+/* NEW SECTION */
+
+.classes {
+    display: flex;
+    padding: 0 20px 0 20px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+}
+
+.classesText {
+    padding: 80px 140px 80px 80px;
+    text-align: right;
+}
+
+h4 {
+    font-size: 1em;
+    font-family: sans-serif;
+    color: rgb(205, 90, 109);
+}
+
+.classesImg {
+    width:70vh;
+}
+
+/* NEW SECTION */
+
+.personalT {
+    display: flex;
+    padding: 0 20px 0 20px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.personalTImg {
+    width:70vh;
+}
+
+.personalTText {
+    padding: 80px 140px 80px 80px;
+    text-align: left;
+
+}
+
+/* NEW SECTION */
+
+footer {
+    background-color: black;
+    color:white;
+    padding:100px 50px 100px 50px;
+}
+
+.mainFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.linkFooter {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+.subTitle {
+    margin-bottom: -20px;
+}
+
+input {
+    padding:10px;
+}
+
+
+.copyright {
+    text-align: center;
+}
+
+
+
+
