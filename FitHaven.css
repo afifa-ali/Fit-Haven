@@ -47,7 +47,7 @@ button {
     font-size: medium;
     font-weight: bold;
     border: 2px solid rgb(205, 90, 109);
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 /* NEW SECTION */
@@ -80,7 +80,7 @@ h2 {
 
 
 p {
-    font-size: larger;
+    font-size: large;
     font-family:sans-serif;
     font-weight: 100;
 }
@@ -242,6 +242,72 @@ h4 {
     text-align: left;
 
 }
+
+/* NEW SECTION */
+
+.membership {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.membershipT {
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.membershipImg {
+    width:47vh;
+
+}
+
+.membershipList {
+    font-size: large;
+}
+
+.membershipBoxes {
+    display: flex;
+    justify-content: center;
+    padding:80px 0 80px 0;
+    gap:60px;
+}
+
+.box1, .box2, .box3 {
+    border:2px solid black;
+
+}
+
+/* NEW SECTION */
+
+.freeTrial {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.freeTrialImg {
+    width: 80vh;
+}
+
+.freeTrialForm {
+   display: flex;
+   flex-direction: column;
+   padding:0 130px;
+}
+
+.freeTrialForm input, .freeTrialForm select {
+    padding:10px;
+    display: block;
+    box-sizing: border-box;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.freeTrialPolicy {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+
 
 /* NEW SECTION */
 
